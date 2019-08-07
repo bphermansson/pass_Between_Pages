@@ -1,5 +1,7 @@
 {
   "name": "pass_Between_Pages",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -7,8 +7,14 @@
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <ion-item>
+    <ion-button routerLink="/type-yourname" routerDirection="forward">
+      Enter your name
+    </ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label id="nameLabel">
+      {{userName}}
+    </ion-label>
+  </ion-item>
 </ion-content>
